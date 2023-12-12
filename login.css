@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100wv;
+    height: 100hv;
+    background-color: wheat;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+header {
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    height: 190px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1{
+    filter: drop-shadow(4px 4px black);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    padding: 11px;
+}
+
+.navbar a:hover {
+    background-color: rgba(246, 217, 162, 0.564);
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    position: relative;
+    margin-right: 30px;
+}
+
+.navbar>a::after{
+    content: " ";
+    width: 0%;
+    background-color: SaddleBrown;
+    position: absolute;
+    transition: .3s ease-in-out;
+    left: 0;
+    bottom: 0;
+}
+
+.navbar>a:hover::after{
+    width: 100%;
+    height: 1px;
+}
+
+.box-geral{
+    background-color: #FFF;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid saddlebrown;
+}
+
+.logo img{
+    width: 160px;
+    height: 150px;
+}
+
+#imagem{
+    margin-top: 20px;
+    width: 190px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box input, .box button{
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    padding: 8px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.box input::placeholder, .box button::placeholder{
+    font-size: 18px;
+}
+
+.box button {
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: saddlebrown;
+    color: wheat;
+}
+
+.box button:hover {
+   cursor: pointer;
+}

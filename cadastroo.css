@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 150wv;
+    height: 150hv;
+    background-color: wheat;
+    font-size: 18px;
+}
+header {
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: #FFF;
+    width: 700px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper-box {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.logo-img>img {
+    width: 100px;
+    height: 150px;
+    margin-top: 210px;
+}
+
+#imagem{
+    margin-top: 220px;
+    width: 190px;
+}
+
+.logo-img {
+    width: 350px;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.box-input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    padding: 5px;
+}
+
+.container-input>label {
+    width: 100px;
+}
+
+.container-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-view {
+    display: grid;
+    place-items: center;
+}
+
+.btn-view button{
+    margin-top: 25px;
+    width: 300px;
+    height: 40px;
+}
+
+.btn-view>a {
+    text-decoration: none;
+    margin-top: 8px;
+    position: relative;
+    color: #000;
+}
+
+.btn-view>a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .3s ease-in-out;
+    background-color: #000;
+
+}
+
+.btn-view>a:hover::after{
+    width: 100%;
+    height: 1px;
+}
+  /* visualizar cadastro*/
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    
+}
+
+.logo-img>img {
+    width: 150px;
+    height: 150px;
+    margin-top: 210px;
+}
+
+.logo-img {
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.card input[type="text"],
+.card input[type="email"],
+.card input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card input[type="submit"] {
+    background: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card input[type="submit"]:hover {
+    background: #004494;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.mensagem {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    text-align: center;
+    color: #333;
+}
+
+.btn-retorno {
+    display: inline-block;
+    background-color: rgb(229, 190, 118);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+.aux{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{   
+    background-color: wheat;
+    width: 100%;
+    height: 100%; 
+}
+
+header {
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo img{
+    width: 220px;
+    height: 150px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1{
+    font-size: 30px;
+    color: SaddleBrown;
+    filter: drop-shadow(4px 4px black);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    position: relative;
+    margin-right: 30px;
+}
+
+.sub-li{
+    margin-left: 10px;
+}
+
+.li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.geral {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+    
+}
+
+.text-li {
+    margin-left: 20px;
+}
+
+.text-card h1 {
+    text-align: center;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.img1{
+    width: 400px;
+    height: 400px;
+    background-image: url(Imagem/cafee.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    width: 400px;
+    height: 400px;
+    background-image: url(Imagem/bebida_gelada.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    margin-bottom: 120px;
+    margin-right: 0px;
+    width: 400px;
+    height: 300px;
+    background-image: url(Imagem/torta.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    margin-top: 40px;
+}
